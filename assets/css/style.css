@@ -1,14 +1,16 @@
+html, 
 body {
+  height: 100%;
+  width: 100%;
   background-color: #f5f5f5 !important;  
+  display: flex;
+  align-items: center !important;    
 }
 
 .panel   {
   background-color: #fff;
 }
 
-.panel__left {
-  padding: 25px 15px;
-}
 .panel__left-title {
   font-size: 2rem;
   color: #bb3b0e;
@@ -33,8 +35,30 @@ input::placeholder {
 .btn-primary {
   background-color: #ca5116 !important;
   border: #ff5500 !important;
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
 }
 
+.panel__left-footer a {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
 .panel__right {
   background-color: #ca5116;
+}
+
+.panel__right-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.panel__left-img {
+  position: absolute;
+  bottom: 1.8rem;
+}
+.panel__left-img img {
+  width: 50%;
+  height: auto;
 }
