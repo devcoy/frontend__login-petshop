@@ -1,12 +1,13 @@
+# Login de usuario responsive estilo Petshop 
 
-# frontend__login-petshop
+## Demo
+> Aquí puedes ver un demo online de este proyecto
+> https://devcoy.github.io/login-petshop
 
-# Maquetación de login de usuario para una tienda de mascotas completamente Responsive
+## Tecnologías
+* HTML5
+* CSS3
+* BOOTSTRAP 4.4
 
-# Tecnologías empleadas:
-# HTML5
-# CSS3
-# BOOSTRAP 4.4
-
-# Créditos de las imágenes:
-# flaticon.com 
+## Créditos
+* Imágenes: https://www.flaticon.com
